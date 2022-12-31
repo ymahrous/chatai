@@ -61,7 +61,7 @@ const handleSumbit = async (e) => {
     const messageDiv = document.getElementById(uniqueId);
     loader(messageDiv);
     // fetching data from the server -> bot
-    const response = await fetch('http://localhost:4500', {
+    const response = await fetch('https://chatai-nt4v.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
